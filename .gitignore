@@ -1,0 +1,10 @@
+/bin/
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore build output folders
+bin/
+target/
+**/module-info
