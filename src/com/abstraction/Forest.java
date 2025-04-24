@@ -2,6 +2,9 @@ package com.abstraction;
 
 
 abstract class Animal {
+	public Animal() {
+		// TODO Auto-generated constructor stub
+	}
 	abstract void eat()
 	;
 

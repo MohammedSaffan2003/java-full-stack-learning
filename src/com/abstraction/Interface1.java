@@ -23,3 +23,12 @@ public interface Interface1 {
 		System.out.println("Static Method ");
 	}
 }
+
+//Interfaces (older versions):
+//- Could not have any implementation (all methods were abstract).
+//- All variables are public static final (constants).
+//
+//Interfaces (Java 8+):
+//- Can have default and static methods with bodies.
+//- Can use private methods (Java 9+) internally.
+//- Still can't have constructors or instance variables (non-static fields).

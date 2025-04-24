@@ -95,3 +95,10 @@ public class AbstractClass1 {
 	}
 
 }
+
+//🔹 Abstraction = Hiding internal details and showing only essential features.
+//🔹 Abstract class = A class that can't be instantiated and may contain abstract methods.
+//🔹 Abstract method = A method with no body; implemented by subclasses.
+//🔹 A class extending an abstract class MUST implement all abstract methods (unless it is also abstract).
+//🔹 Abstract classes can have constructors, static methods, and non-abstract methods too.
+//🔹 Unlike interfaces, abstract classes support fields, constructors, and access modifiers.
