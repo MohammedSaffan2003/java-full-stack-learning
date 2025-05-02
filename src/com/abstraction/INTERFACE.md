@@ -1,5 +1,4 @@
 ---
-
 ### 📁 **Package Declaration**
 ```java
 package com.abstraction;
