@@ -10,6 +10,7 @@ public class NegativeArraySize {
 		Scanner sc = new Scanner(System.in);
 		int size = sc.nextInt();
 		int[] arr = new int[size];
+		arr[0] = 0;
 		System.out.println("Enter size is " + size);
 		System.out.println("Connection closed successfully");
 		sc.close();
