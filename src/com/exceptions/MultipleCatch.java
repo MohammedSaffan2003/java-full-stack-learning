@@ -28,7 +28,7 @@ public class MultipleCatch {
 			System.out.println("Enter an integer");
 			int k = sc.nextInt();
 			System.out.println("Entered number is " + k);
-			ar[0] = k;
+			ar[size] = k; // for ArrayIndexOutOfBounds
 
 		}
 //		catch (Exception e) {
@@ -60,9 +60,23 @@ public class MultipleCatch {
 			// TODO: handle exception
 			System.out.println("Enter an integer, do not enter any other type");
 		}
+		// generic catch block for un-hnadled specific exception that might occur in
+		// runtime
+		catch (Exception e) {
+			// TODO: handle exception
+//			System.out.println("An exception occurred due to: " + e.toString().substring(10));
+			e.printStackTrace();// prints the whole message
+		}
 		finally {
+			sc.close();
 			System.out.println("Connection closed successfully");
 		}
 	}
 
 }
+
+/*
+ * Generic catch block must be at last of all the specific catch block
+ * 
+ * If Generic is present above all, then what's the point of the specifics below
+ */
