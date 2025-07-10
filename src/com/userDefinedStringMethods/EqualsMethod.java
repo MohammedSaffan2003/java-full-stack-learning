@@ -63,7 +63,7 @@ public class EqualsMethod {
 		String s2 = sc.next();
 		System.out.println((myEqualsMethod(s1, s2)) ? "Same" : "Different");
 		System.out.println((myEqualsMethodIgnoreCase(s1, s2)) ? "Same (ignored case)" : "Different (ignored case)");
-
+		sc.close();
 	}
 
 }
