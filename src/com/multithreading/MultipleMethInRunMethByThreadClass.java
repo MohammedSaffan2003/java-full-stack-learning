@@ -2,6 +2,7 @@ package com.multithreading;
 //9 July 2025
 
 //continue MultiProcessUsingRunnable
+//08 next MultipleTablesUsingSinglethreadClass
 class MultiMethodThreadClass extends Thread {
 
 	public void run() {

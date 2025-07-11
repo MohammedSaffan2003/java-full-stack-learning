@@ -1,5 +1,6 @@
 package com.multithreading;
 
+//01 next MultiProcess
 public class MyThread {
 
 	public static void main(String[] args) {

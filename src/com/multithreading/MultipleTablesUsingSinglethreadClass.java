@@ -2,6 +2,7 @@ package com.multithreading;
 
 //9 july 2025
 //continue after MultipleMethInRunMethByThreadClass
+//09 next UserAndDaemonThreads
 class MultipleTables extends Thread {
 
 	public void run() {

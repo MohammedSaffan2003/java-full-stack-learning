@@ -3,6 +3,7 @@ package com.multithreading;
 import java.util.Scanner;
 
 //continue from MultiThreadsForTables
+//04 next WhyRunnableImpIsBetterThanThreadClass
 class PrintCharThread extends Thread {
 	public void run() {
 		System.out.println("Entered PrintChar " + Thread.currentThread());

@@ -1,5 +1,8 @@
 package com.multithreading;
 
+//after MyThread 
+//02 next MultiThreadsForTables
+
 import java.util.Scanner;
 
 public class MultiProcess { // without efficiency

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 // 9 July 2025
 //continue after TablesThreadsByRunnableImpl
+//07 next MultipleMethInRunMethByThreadClass
 class RunPrintCharThread implements Runnable {
 	public void run() {
 		System.out.println("Entered PrintChar " + Thread.currentThread());

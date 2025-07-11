@@ -1,5 +1,7 @@
 package com.multithreading;
-//continue from MyThread 
+
+//continue from MultiProcess 
+//03 next MultiProcessInThread
 class TwoTables extends Thread {
 	public void run() {
 		for (int i = 1; i <= 10; i++)

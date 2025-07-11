@@ -1,6 +1,7 @@
 package com.multithreading;
 
 //9 July 2025
+//05 next TablesThreadsByRunnableImpl
 public class WhyRunnableImpIsBetterThanThreadClass {
 // using Runnable is cleaner for separating logic and threading behavior, which makes the code more modular and testable — especially important in large applications.
 
@@ -36,8 +37,10 @@ public class WhyRunnableImpIsBetterThanThreadClass {
  */
 
 /*
- * My understanding Every class extends Object, so when (say A) A class inherits
- * Thread class, we proceed with MultiThreading.
+ * My understanding:
+ * 
+ * Every class extends Object, so when (say A) A class inherits Thread class, we
+ * proceed with MultiThreading.
  * 
  * But when another class (say B) B inherits A, knowingly or unknowingly the
  * Thread class comes under its inheritance which might not be necessary for B

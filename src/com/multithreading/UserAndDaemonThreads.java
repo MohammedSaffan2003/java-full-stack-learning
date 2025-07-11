@@ -2,7 +2,7 @@ package com.multithreading;
 
 //9 july2025
 //continue after MultipleTablesUsingSinglethreadClass
-
+// 10 next UserAndDaemonThreadPt2
 class UserThread extends Thread {
 	public void run() {
 		System.out.println("User Thread Started");

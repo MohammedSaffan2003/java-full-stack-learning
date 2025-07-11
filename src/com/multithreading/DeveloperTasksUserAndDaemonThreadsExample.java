@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 //10july25
 //after UserThreadPt2
+//12 next JoinMethodMultiThreading
 class VSCodeTasks extends Thread {
 	@Override
 	public void run() {

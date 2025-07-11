@@ -2,7 +2,7 @@ package com.multithreading;
 //11july25
 
 //after JoinMethodMultiThreading
-
+//14 - next SynchronizedInMultiThreading
 class Tables extends Thread {
 	@Override
 	public void run() {

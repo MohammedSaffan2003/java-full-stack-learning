@@ -1,6 +1,7 @@
 package com.multithreading;
 //9 July 2025
 //continue after WhyRunnableImpIsBetterThanThreadClass
+//06 next MultiProcessUsingRunnable
 
 class RunTwoTables implements Runnable {
 	public void run() {
